@@ -1,0 +1,8 @@
+{
+    "jobs": [
+        {
+            "input": "record.json",
+            "output": "output/cao_lab2.pdf"
+        }
+    ]
+}

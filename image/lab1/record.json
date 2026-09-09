@@ -1,0 +1,93 @@
+{
+    "template": "default",
+    "images": [
+        {
+            "id": "example_image",
+            "path": "example.png",
+            "title": "Example Circuit Diagram",
+            "rotation": 90
+        },
+        {
+            "id": "design",
+            "path": "design.png",
+            "title": "Design",
+            "rotation": 0
+        },
+        {
+            "id": "tb",
+            "path": "tb.png",
+            "title": "Tb",
+            "rotation": 0
+        },
+        {
+            "id": "waveform",
+            "path": "waveform.png",
+            "title": "Waveform",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "title": "lab1 rca",
+            "sections": [
+                {
+                    "type": "code",
+                    "title": "Design code of half adder",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/ha.vhd",
+                    "language": "Verilog"
+                },
+                {
+                    "type": "code",
+                    "title": "Design code of full adder",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/fa.vhd",
+                    "language": "Verilog"
+                },
+                {
+                    "type": "code",
+                    "title": "Design code of RCA",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/rca8.vhd",
+                    "language": "Verilog"
+                },
+                {
+                    "type": "code",
+                    "title": "Test Bench code of RCA",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/rca8_tb.vhd",
+                    "language": "Verilog"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of code",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Page 1 - Circuit & Simulation Layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "design",
+                                    "tb"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Waveform",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "Page 1 - Circuit & Simulation Layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "waveform"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "template": "cao",
+    "document": {
+        "title": "COMPUTER ARCHITECTURE & ORGANIZATION LAB RECORD"
+    },
+    "images": [
+        {
+            "id": "design",
+            "path": "design.png",
+            "title": "Design",
+            "rotation": 0
+        },
+        {
+            "id": "tb",
+            "path": "tb.png",
+            "title": "Tb",
+            "rotation": 0
+        },
+        {
+            "id": "waveform",
+            "path": "waveform.png",
+            "title": "Waveform",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "title": "Lab 2: Wallece Tree Multiplier",
+            "sections": [
+                {
+                    "type": "code",
+                    "title": "Design code of wallece tree multiplier",
+                    "language": "Verilog",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/lab3_wallace.vhd"
+                },
+                {
+                    "type": "code",
+                    "title": "Test bench code of cla",
+                    "language": "Verilog",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/lab3_wallace_tb.vhd"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of Code",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Design and Tb code",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "design",
+                                    "tb"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Waveform",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "Waveform",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "waveform"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
