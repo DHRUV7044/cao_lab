@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../rtl/fa.vhd" \
+"../../../../rtl/ha.vhd" \
+"../../../../rtl/rca8.vhd" \
+"../../../../tb/rca8_tb.vhd" \
+
+# Do not sort compile order
+nosort

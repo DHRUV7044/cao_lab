@@ -1,7 +1,7 @@
-Running: xsim.dir/lab3_wallance_tb_behav/xsimk -simmode gui -wdb lab3_wallance_tb_behav.wdb -simrunnum 0 -socket 49171
+Running: xsim.dir/lab3_wallance_tb_behav/xsimk -simmode gui -wdb lab3_wallance_tb_behav.wdb -simrunnum 0 -socket 37185
 Design successfully loaded
 Design Loading Memory Usage: 34156 KB (Peak: 34276 KB)
-Design Loading CPU Usage: 30 ms
+Design Loading CPU Usage: 20 ms
 Simulation completed
 Simulation Memory Usage: 116856 KB (Peak: 173424 KB)
 Simulation CPU Usage: 30 ms

@@ -1,2 +1,8 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/rtl/lab3_wallace.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'lab3_wallace'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/fa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fa'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/ha.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ha'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/rca8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rca8'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/rca8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rca8_tb'

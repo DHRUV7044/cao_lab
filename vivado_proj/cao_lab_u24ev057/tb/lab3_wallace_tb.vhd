@@ -47,8 +47,6 @@ architecture testing of lab3_wallance_tb is
     signal a : std_logic_vector(3 downto 0);
     signal b : std_logic_vector(3 downto 0);
     signal c : std_logic_vector(7 downto 0);
-    
-        
      
 begin
 

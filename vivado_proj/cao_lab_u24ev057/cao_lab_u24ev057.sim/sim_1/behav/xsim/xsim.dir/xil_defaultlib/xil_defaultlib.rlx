@@ -3,10 +3,8 @@
 Oct 13 2023
 20:21:30
 /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/cla8.vhd,1786621968,vhdl,,,,cla8,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/fa.vhd,1786016687,vhdl,,,,fa,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/ha.vhd,1786014023,vhdl,,,,ha,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/rca8.vhd,1786016391,vhdl,,,,rca8,,,,,,,,
 /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/cla8_tb.vhd,1786621341,vhdl,,,,cla8_tb,,,,,,,,
-/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/rca8_tb.vhd,1786618928,vhdl,,,,rca8_tb,,,,,,,,
-/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/rtl/lab1/fa.vhd,1786016687,vhdl,,,,fa,,,,,,,,
-/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/rtl/lab1/ha.vhd,1786014023,vhdl,,,,ha,,,,,,,,
-/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/rtl/lab1/rca8.vhd,1786016391,vhdl,,,,rca8,,,,,,,,
-/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/rtl/lab3_wallace.vhd,1788439554,vhdl,,,,lab3_wallace,,,,,,,,
-/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/tb/lab3_wallace_tb.vhd,1788437714,vhdl,,,,lab3_wallance_tb,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/rca8_tb.vhd,1786619789,vhdl,,,,rca8_tb,,,,,,,,

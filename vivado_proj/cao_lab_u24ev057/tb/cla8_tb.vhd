@@ -57,7 +57,7 @@ architecture testing of cla8_tb is
 begin
 
 
-    rca_test : cla8 port map(
+    cla_test : cla8 port map(
         a => a,
         b => b,
         cin => cin,

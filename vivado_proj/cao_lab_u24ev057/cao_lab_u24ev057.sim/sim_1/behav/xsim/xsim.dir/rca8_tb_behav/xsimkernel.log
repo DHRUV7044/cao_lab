@@ -1,7 +1,4 @@
-Running: xsim.dir/rca8_tb_behav/xsimk -simmode gui -wdb rca8_tb_behav.wdb -simrunnum 0 -socket 52327
+Running: xsim.dir/rca8_tb_behav/xsimk -simmode gui -wdb rca8_tb_behav.wdb -simrunnum 0 -socket 43355
 Design successfully loaded
 Design Loading Memory Usage: 34152 KB (Peak: 34272 KB)
-Design Loading CPU Usage: 30 ms
-Simulation completed
-Simulation Memory Usage: 115888 KB (Peak: 173420 KB)
-Simulation CPU Usage: 50 ms
+Design Loading CPU Usage: 20 ms
