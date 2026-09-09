@@ -34,25 +34,25 @@
                     "type": "code",
                     "title": "Design code of half adder",
                     "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/ha.vhd",
-                    "language": "Verilog"
+                    "language": "VHDL"
                 },
                 {
                     "type": "code",
                     "title": "Design code of full adder",
                     "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/fa.vhd",
-                    "language": "Verilog"
+                    "language": "VHDL"
                 },
                 {
                     "type": "code",
                     "title": "Design code of RCA",
                     "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/rca8.vhd",
-                    "language": "Verilog"
+                    "language": "VHDL"
                 },
                 {
                     "type": "code",
                     "title": "Test Bench code of RCA",
                     "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/rca8_tb.vhd",
-                    "language": "Verilog"
+                    "language": "VHDL"
                 },
                 {
                     "type": "image",

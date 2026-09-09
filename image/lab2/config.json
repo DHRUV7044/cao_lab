@@ -54,7 +54,7 @@
         "alignment": "center"
     },
     "header": {
-        "show_header": true,
-        "rule": true
+        "show_header": false,
+        "rule": false
     }
 }

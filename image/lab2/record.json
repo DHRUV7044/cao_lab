@@ -30,13 +30,13 @@
                 {
                     "type": "code",
                     "title" : "Design code of cla",
-                    "language": "Verilog",
+                    "language": "VHDL",
                     "file" : "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/cla8.vhd"
                 },
                 {
                     "type": "code",
                     "title" : "Test bench code of cla",
-                    "language": "Verilog",
+                    "language": "VHDL",
                     "file" : "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/cla8_tb.vhd"
                 },
                 {

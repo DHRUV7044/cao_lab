@@ -2,7 +2,7 @@
     "jobs": [
         {
             "input": "record.json",
-            "output": "output/lab_record.pdf"
+            "output": "output/cao_lab3.pdf"
         }
     ]
 }

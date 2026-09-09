@@ -30,13 +30,13 @@
                 {
                     "type": "code",
                     "title": "Design code of wallece tree multiplier",
-                    "language": "Verilog",
+                    "language": "VHDL",
                     "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/lab3_wallace.vhd"
                 },
                 {
                     "type": "code",
                     "title": "Test bench code of cla",
-                    "language": "Verilog",
+                    "language": "VHDL",
                     "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/lab3_wallace_tb.vhd"
                 },
                 {
