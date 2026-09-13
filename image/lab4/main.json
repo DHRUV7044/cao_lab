@@ -1,0 +1,8 @@
+{
+    "jobs": [
+        {
+            "input": "record.json",
+            "output": "output/lab4.pdf"
+        }
+    ]
+}

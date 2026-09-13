@@ -1,0 +1,78 @@
+{
+    "template": "cao",
+    "document": {
+        "title": "COMPUTER ARCHITECTURE & ORGANIZATION LAB RECORD"
+    },
+    "images": [
+        {
+            "id": "design",
+            "path": "design.png",
+            "title": "Design",
+            "rotation": 0
+        },
+        {
+            "id": "tb",
+            "path": "tb.png",
+            "title": "Tb",
+            "rotation": 0
+        },
+        {
+            "id": "waveform",
+            "path": "waveform.png",
+            "title": "Waveform",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "title": "Lab 4: Booth multiplier",
+            "sections": [
+                {
+                    "type": "code",
+                    "title": "code of booth multiplier",
+                    "language": "VHDL",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/booth/booth_mul.vhd"
+                },
+                {
+                    "type": "code",
+                    "title": "code of test bench for booth multiplier",
+                    "language": "VHDL",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/booth/booth_mul_tb.vhd"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of Code",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Page 1 - Circuit & Simulation Layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "design",
+                                    "tb"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Waveform",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "Page 1 - Circuit & Simulation Layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "waveform"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
