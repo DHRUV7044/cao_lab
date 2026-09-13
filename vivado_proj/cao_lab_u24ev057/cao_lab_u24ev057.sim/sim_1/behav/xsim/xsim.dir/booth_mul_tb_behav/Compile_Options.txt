@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "booth_mul_tb_behav" "xil_defaultlib.booth_mul_tb" -log "elaborate.log" 

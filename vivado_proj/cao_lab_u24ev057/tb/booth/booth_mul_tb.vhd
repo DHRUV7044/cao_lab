@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 09/03/2026 05:37:05 PM
+-- Create Date: 09/10/2026 04:26:32 PM
 -- Design Name: 
--- Module Name: lab3_wallance_tb - Behavioral
+-- Module Name: booth_mul_tb - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,30 +31,31 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity lab3_wallance_tb is
+entity booth_mul_tb is
 --  Port ( );
-end lab3_wallance_tb;
+end booth_mul_tb;
 
-architecture testing of lab3_wallance_tb is
+architecture testing of booth_mul_tb is
 
-    component lab3_wallace is
+
+    component booth_mul is
         Port ( a : in signed (3 downto 0);
             b : in signed (3 downto 0);
-            c : out signed (7 downto 0));
+            p : out signed (7 downto 0));
     end component;
     
 
     signal a : signed(3 downto 0);
     signal b : signed(3 downto 0);
-    signal c : signed(7 downto 0);
+    signal p : signed(7 downto 0);
      
 begin
 
 
-    lab3_wallance_test : lab3_wallace port map(
+    booth_multiplier_test : booth_mul port map(
         a => a,
         b => b,
-        c =>c
+        p =>p
     );
     
     
