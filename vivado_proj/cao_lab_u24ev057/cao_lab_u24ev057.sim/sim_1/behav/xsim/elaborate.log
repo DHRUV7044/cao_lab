@@ -1,7 +1,7 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot rca8_tb_behav xil_defaultlib.rca8_tb -log elaborate.log 
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot booth_mul_tb_behav xil_defaultlib.booth_mul_tb -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,8 +11,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture dataflow of entity xil_defaultlib.ha [ha_default]
-Compiling architecture dataflow of entity xil_defaultlib.fa [fa_default]
-Compiling architecture structural of entity xil_defaultlib.rca8 [rca8_default]
-Compiling architecture testing of entity xil_defaultlib.rca8_tb
-Built simulation snapshot rca8_tb_behav
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.booth_mul [booth_mul_default]
+Compiling architecture testing of entity xil_defaultlib.booth_mul_tb
+Built simulation snapshot booth_mul_tb_behav

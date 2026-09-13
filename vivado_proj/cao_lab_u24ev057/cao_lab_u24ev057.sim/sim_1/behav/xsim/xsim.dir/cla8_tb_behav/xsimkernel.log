@@ -2,3 +2,6 @@ Running: xsim.dir/cla8_tb_behav/xsimk -simmode gui -wdb cla8_tb_behav.wdb -simru
 Design successfully loaded
 Design Loading Memory Usage: 34164 KB (Peak: 34284 KB)
 Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 115900 KB (Peak: 173432 KB)
+Simulation CPU Usage: 50 ms
