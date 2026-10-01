@@ -72,7 +72,7 @@ begin
             v <= '0';
         
         when x"3" => 
-            if ( b = x"0") then
+            if ( b = x"00") then
                 c <= x"ffff";
                 v <= '1';
             else 
@@ -82,23 +82,35 @@ begin
             end if;
         
         when x"4" =>
-            c <= ae mod be;
-            v <= '0';
+            if ( b = x"00") then
+                c <= x"ffff";
+                v <= '1';
+            else 
+                c <= ae mod be;
+                v <= '0';
+                
+            end if;
         
         when x"5" =>
-            c <= ae rem be;
-            v <= '0';
+            if ( b = x"00") then
+                c <= x"ffff";
+                v <= '1';
+            else 
+                c <= ae rem be;
+                v <= '0';
+                
+            end if;
             
         when x"6" =>
-            c <= not ae;
+            c <= x"00" & (not a );
             v <= '0';
         
         when x"7" =>
-            c <= ae and be and x"00ff";
+            c <= x"00" & (a and b);
             v <= '0';
         
         when x"8" =>
-            c <= (ae xor be) and x"00ff";
+            c <= x"00" & (a xor b) ;
             v <= '0';
         
         when x"9" =>
@@ -114,7 +126,7 @@ begin
             v <= '0';
             
         when x"c" =>
-            c <= x"00" & a rol 1;
+            c <= x"00" & (a rol 1);
             v <= '0';
             
         when x"d" =>

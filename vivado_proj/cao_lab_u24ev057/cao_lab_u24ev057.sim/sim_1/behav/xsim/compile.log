@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/alu/alu_8bit_vhdl.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'alu_8bit_vhdl'
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu/alu8_vhdl_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'alu8_vhdl_tb'

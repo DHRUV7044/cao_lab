@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Oct  1 12:18:59 2026
+# Process ID: 123933
+# Current directory: /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.sim/sim_1/behav/xsim
+# Command line: vivado
+# Log file: /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.sim/sim_1/behav/xsim/vivado.log
+# Journal file: /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.sim/sim_1/behav/xsim/vivado.jou
+# Running On: vlsilab-client44.eced.svnit.ac.in, OS: Linux, CPU Frequency: 3200.000 MHz, CPU Physical cores: 6, Host memory: 7953 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.xpr
+launch_simulation
+source alu8_vhdl_tb.tcl
+update_compile_order -fileset sources_1
+run 110 ns
+relaunch_sim
+relaunch_sim
+restart
+run 110 ns
+run 110 ns
+run 110 ns
+run 110 ns
