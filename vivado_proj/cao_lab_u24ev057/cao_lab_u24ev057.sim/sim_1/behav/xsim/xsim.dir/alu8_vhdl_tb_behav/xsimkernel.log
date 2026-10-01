@@ -1,4 +1,4 @@
-Running: xsim.dir/alu8_vhdl_tb_behav/xsimk -simmode gui -wdb alu8_vhdl_tb_behav.wdb -simrunnum 0 -socket 39705
+Running: xsim.dir/alu8_vhdl_tb_behav/xsimk -simmode gui -wdb alu8_vhdl_tb_behav.wdb -simrunnum 0 -socket 38563
 Design successfully loaded
 Design Loading Memory Usage: 34172 KB (Peak: 34172 KB)
-Design Loading CPU Usage: 20 ms
+Design Loading CPU Usage: 10 ms
