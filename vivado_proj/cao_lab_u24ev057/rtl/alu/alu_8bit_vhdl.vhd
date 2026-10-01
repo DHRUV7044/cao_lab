@@ -68,7 +68,7 @@ begin
             v <= '0';
             
         when x"2" => 
-            c <= ae * be;
+            c <= a * b;
             v <= '0';
         
         when x"3" => 
@@ -94,27 +94,27 @@ begin
             v <= '0';
         
         when x"7" =>
-            c <= ae and be;
+            c <= ae and be and x"00ff";
             v <= '0';
         
         when x"8" =>
-            c <= ae xor be;
+            c <= (ae xor be) and x"00ff";
             v <= '0';
         
         when x"9" =>
-            c <= ae srl TO_INTEGER(be);
+            c <= (ae and x"00ff") srl TO_INTEGER(be);
             v <= '0';
         
         when x"a" =>
-            c <= ae sll TO_INTEGER(be);
+            c <= (ae and x"00ff") sll TO_INTEGER(be);
             v <= '0';
             
         when x"b" =>
-            c <= ae ror 1;
+            c <= x"00" & (a ror 1);
             v <= '0';
             
         when x"c" =>
-            c <= ae rol 1;
+            c <= x"00" & a rol 1;
             v <= '0';
             
         when x"d" =>
@@ -123,7 +123,7 @@ begin
                     c <= x"ffff";
                     v <= '1';
                 else
-                    c <= ae*ae*ae;
+                    c <= TO_SIGNED(TO_INTEGER(ae*ae*ae) , 16);
                     v <= '0';
                 end if;
             else
@@ -131,18 +131,18 @@ begin
                     c <= x"ffff";
                     v <= '1';
                 else
-                    c <= ae*ae*ae;
+                    c <= TO_SIGNED(TO_INTEGER(ae*ae*ae) , 16);
                     v <= '0';
                 end if;
             end if;
             v <= '0';
             
         when x"e" =>
-            c <= (ae*ae) - (b/2);
+            c <= TO_SIGNED(TO_INTEGER(ae*ae) , 16) - (b/2);
             v <= '0';
         
         when x"f" =>
-            c <= (be*be) - (b mod a);
+            c <= TO_SIGNED(TO_INTEGER(be*be) , 16) - (b rem a);
             v <= '0';
         
         when others => 
