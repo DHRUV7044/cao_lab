@@ -2,7 +2,7 @@
 2020.2
 Oct 13 2023
 20:21:30
-/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/alu/alu_8bit_vhdl.vhd,1790837602,vhdl,/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu/alu8_vhdl_tb.vhd,,,alu_8bit_vhdl,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/alu/alu_8bit_vhdl.vhd,1790838010,vhdl,/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu/alu8_vhdl_tb.vhd,,,alu_8bit_vhdl,,,,,,,,
 /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/booth/booth_mul.vhd,1789312004,vhdl,,,,booth_mul,,,,,,,,
 /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/cla8.vhd,1786621968,vhdl,,,,cla8,,,,,,,,
 /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/fa.vhd,1786016687,vhdl,,,,fa,,,,,,,,

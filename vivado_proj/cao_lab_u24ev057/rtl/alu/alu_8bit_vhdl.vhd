@@ -147,7 +147,6 @@ begin
                     v <= '0';
                 end if;
             end if;
-            v <= '0';
             
         when x"e" =>
             c <= TO_SIGNED(TO_INTEGER(ae*ae) , 16) - (b/2);
