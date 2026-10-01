@@ -153,7 +153,7 @@ begin
             v <= '0';
         
         when x"f" =>
-            c <= TO_SIGNED(TO_INTEGER(be*be) , 16) - (b rem a);
+            c <= TO_SIGNED(TO_INTEGER(be*be) , 16) - (b rem 17);
             v <= '0';
         
         when others => 

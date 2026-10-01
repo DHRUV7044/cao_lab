@@ -47,8 +47,26 @@ module alu_8bit_verilog(
 		          v <= 1'b0;
 		      end
 		end
-		4'h4 : c <= ((a%b) + b ) %b;
-		4'h5 : c <= a%b;
+		4'h4 : begin
+		      if ( b == 0) begin
+		          c <= 16'hffff;
+		          v <= 1'b1;
+		          end
+		      else begin
+		          c <= ((a%b) + b)%b;
+		          v <= 1'b0;
+		      end
+		end
+		4'h5 : begin
+		      if ( b == 0) begin
+		          c <= 16'hffff;
+		          v <= 1'b1;
+		          end
+		      else begin
+		          c <= a%b;
+		          v <= 1'b0;
+		      end
+		end
 		4'h6 : c <= ~a;
 		4'h7 : c <= a & b;
 		4'h8 : c <= a ^ b; 
@@ -57,7 +75,7 @@ module alu_8bit_verilog(
 		4'hb : c <= (a >> 1) | (a << 7);
 		4'hc : c <= (a << 1) | (a >> 7);
 		4'hd : begin
-		      if ( (a < -32) || ( a >= 32)) begin
+		      if ( ($signed(a) < -8'sd32) || ( $signed(a) >= 8'sd32)) begin
 		          c <= 16'hffff;
 		          v <= 1'b1;
 		      end
@@ -67,7 +85,7 @@ module alu_8bit_verilog(
 		      end 
 		end
 		4'he : c <= a*a - b/2;
-		4'hf : c <= b*b - b%a;
+		4'hf : c <= b*b - b%17;
 		default : c <= 16'h0000;
 	endcase
 	

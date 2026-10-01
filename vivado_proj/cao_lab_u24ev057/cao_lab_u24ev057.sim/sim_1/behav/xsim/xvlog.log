@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/alu/alu_8bit_verilog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_8bit_verilog
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu/alu8_verilog_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu8_verilog_tb
