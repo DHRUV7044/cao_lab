@@ -48,13 +48,15 @@ begin
         op <= x"3"; a <= to_signed(-25, 8); b <= to_signed(4, 8);   wait for 10 ns;
         op <= x"3"; a <= to_signed(25, 8);  b <= to_signed(0, 8);   wait for 10 ns;
 
-        -- MOD (op = 4), nonzero divisor
+        -- MOD (op = 4), including zero divisor
         op <= x"4"; a <= to_signed(17, 8);  b <= to_signed(5, 8);   wait for 10 ns;
         op <= x"4"; a <= to_signed(-17, 8); b <= to_signed(5, 8);   wait for 10 ns;
+        op <= x"4"; a <= to_signed(17, 8);  b <= to_signed(0, 8);   wait for 10 ns;
 
-        -- REM (op = 5), nonzero divisor
+        -- REM (op = 5), including zero divisor
         op <= x"5"; a <= to_signed(17, 8);  b <= to_signed(5, 8);   wait for 10 ns;
         op <= x"5"; a <= to_signed(-17, 8); b <= to_signed(5, 8);   wait for 10 ns;
+        op <= x"5"; a <= to_signed(17, 8);  b <= to_signed(0, 8);   wait for 10 ns;
 
         -- NOT (op = 6)
         op <= x"6"; a <= to_signed(0, 8);   b <= to_signed(0, 8);   wait for 10 ns;
