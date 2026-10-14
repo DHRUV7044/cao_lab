@@ -1,0 +1,119 @@
+{
+    "template": "cao",
+    "document": {
+        "title": "COMPUTER ARCHITECTURE & ORGANIZATION LAB RECORD"
+    },
+    "images": [
+        {
+            "id": "alu6_code",
+            "path": "alu6_code.png",
+            "title": "6-bit ALU Verilog Design Code",
+            "rotation": 0
+        },
+        {
+            "id": "alu6_display_code",
+            "path": "alu6_display_code.png",
+            "title": "7-Segment Display Top Module Code",
+            "rotation": 0
+        },
+        {
+            "id": "alu6_tb",
+            "path": "alu6_tb.png",
+            "title": "6-bit ALU Testbench Code",
+            "rotation": 0
+        },
+        {
+            "id": "alu6_constraint",
+            "path": "alu6_constraint.png",
+            "title": "Basys 3 Constraints File",
+            "rotation": 0
+        },
+        {
+            "id": "alu6_waveform",
+            "path": "alu6_waveform.png",
+            "title": "6-bit ALU Simulation Waveform",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "title": "Lab 7: 6-bit ALU with 7-Segment Display on FPGA",
+            "sections": [
+                {
+                    "type": "code",
+                    "title": "Design code of 6-bit ALU (Verilog)",
+                    "language": "Verilog",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/alu_board/alu6_verilog.v"
+                },
+                {
+                    "type": "code",
+                    "title": "Design code of 7-Segment Display Top Module (Verilog)",
+                    "language": "Verilog",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/alu_board/alu_display.v"
+                },
+                {
+                    "type": "code",
+                    "title": "Testbench code of 6-bit ALU (Verilog)",
+                    "language": "Verilog",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v"
+                },
+                {
+                    "type": "code",
+                    "title": "Constraint file for Basys 3 Board (XDC)",
+                    "language": "XDC",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/constraints/alu/alu6.xdc"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of ALU and Display Module Code",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "ALU and Display Code",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "alu6_code",
+                                    "alu6_display_code"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of Testbench and Constraints",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Testbench and Constraints",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "alu6_tb",
+                                    "alu6_constraint"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Simulation Waveform",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Simulation Waveform",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "alu6_waveform"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

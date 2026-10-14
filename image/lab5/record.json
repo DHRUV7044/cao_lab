@@ -1,0 +1,141 @@
+{
+    "template": "cao",
+    "document": {
+        "title": "COMPUTER ARCHITECTURE & ORGANIZATION LAB RECORD"
+    },
+    "images": [
+        {
+            "id": "alu8_vhdl_code",
+            "path": "alu8_vhdl_code.png",
+            "title": "ALU VHDL Design Code",
+            "rotation": 0
+        },
+        {
+            "id": "alu8_vhdl_tb",
+            "path": "alu8_vhdl_tb.png",
+            "title": "ALU VHDL Testbench Code",
+            "rotation": 0
+        },
+        {
+            "id": "alu8_vhdl_waveform",
+            "path": "alu8_vhdl_waveform.png",
+            "title": "ALU VHDL Simulation Waveform",
+            "rotation": 270
+        },
+        {
+            "id": "alu8_verilog_code",
+            "path": "alu8_verilog_code.png",
+            "title": "ALU Verilog Design Code",
+            "rotation": 0
+        },
+        {
+            "id": "alu8_verilog_tb",
+            "path": "alu8_verilog_tb.png",
+            "title": "ALU Verilog Testbench Code",
+            "rotation": 0
+        },
+        {
+            "id": "alu8_verilog_waveform",
+            "path": "alu8_verilog_waveform.png",
+            "title": "ALU Verilog Simulation Waveform",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "title": "Lab 5: 8-bit Arithmetic Logic Unit (ALU)",
+            "sections": [
+                {
+                    "type": "code",
+                    "title": "Design code of 8-bit ALU (VHDL)",
+                    "language": "VHDL",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/alu/alu_8bit_vhdl.vhd"
+                },
+                {
+                    "type": "code",
+                    "title": "Testbench code of 8-bit ALU (VHDL)",
+                    "language": "VHDL",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/alu/alu8_vhdl_tb.vhd"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of VHDL Code and Testbench",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "VHDL Design and Testbench Code",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "alu8_vhdl_code",
+                                    "alu8_vhdl_tb"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "VHDL Simulation Waveform",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "VHDL Simulation Waveform",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "alu8_vhdl_waveform"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "code",
+                    "title": "Design code of 8-bit ALU (Verilog)",
+                    "language": "Verilog",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/rtl/alu/alu_8bit_verilog.v"
+                },
+                {
+                    "type": "code",
+                    "title": "Testbench code of 8-bit ALU (Verilog)",
+                    "language": "Verilog",
+                    "file": "/home/dhruv/cao_lab/vivado_proj/cao_lab_u24ev057/tb/alu/alu8_verilog_tb.v"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of Verilog Code and Testbench",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Verilog Design and Testbench Code",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "alu8_verilog_code",
+                                    "alu8_verilog_tb"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Verilog Simulation Waveform",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Verilog Simulation Waveform",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "alu8_verilog_waveform"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
