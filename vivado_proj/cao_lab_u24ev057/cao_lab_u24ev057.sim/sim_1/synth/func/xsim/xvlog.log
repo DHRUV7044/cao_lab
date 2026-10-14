@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/alu_board/alu6_verilog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu6_verilog
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu6_tb
+WARNING: [VRFC 10-8497] literal value 'hCE truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:51]
+WARNING: [VRFC 10-8497] literal value 'h7F truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:52]
+WARNING: [VRFC 10-8497] literal value 'hFF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:53]
+WARNING: [VRFC 10-8497] literal value 'h80 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:58]
+WARNING: [VRFC 10-8497] literal value 'hF4 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:62]
+WARNING: [VRFC 10-8497] literal value 'h80 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:63]
+WARNING: [VRFC 10-8497] literal value 'h7F truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:64]
+WARNING: [VRFC 10-8497] literal value 'hE7 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:68]
+WARNING: [VRFC 10-8497] literal value 'hEF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:74]
+WARNING: [VRFC 10-8497] literal value 'hEF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:79]
+WARNING: [VRFC 10-8497] literal value 'hFF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:84]
+WARNING: [VRFC 10-8497] literal value 'h80 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:85]
+WARNING: [VRFC 10-8497] literal value 'h61 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:98]
+WARNING: [VRFC 10-8497] literal value 'h61 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:99]
+WARNING: [VRFC 10-8497] literal value 'h61 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:100]
+WARNING: [VRFC 10-8497] literal value 'hFF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:101]
+WARNING: [VRFC 10-8497] literal value 'h61 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:104]
+WARNING: [VRFC 10-8497] literal value 'h61 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:109]
+WARNING: [VRFC 10-8497] literal value 'hFF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:111]
+WARNING: [VRFC 10-8497] literal value 'h61 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:114]
+WARNING: [VRFC 10-8497] literal value 'h40 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:115]
+WARNING: [VRFC 10-8497] literal value 'hFF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:116]
+WARNING: [VRFC 10-8497] literal value 'hFD truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:121]
+WARNING: [VRFC 10-8497] literal value 'hE0 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:124]
+WARNING: [VRFC 10-8497] literal value 'hDF truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:125]
+WARNING: [VRFC 10-8497] literal value 'hF4 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:129]
+WARNING: [VRFC 10-8497] literal value 'h60 truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:130]
+WARNING: [VRFC 10-8497] literal value 'hFD truncated to fit in 6 bits [/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v:134]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.sim/sim_1/synth/func/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

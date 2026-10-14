@@ -27,15 +27,15 @@ module alu_8bit_verilog(
     output reg [15:0] c,
     output reg v
     );
-
-
 	
 	always @(*) begin
 		v <= 1'b0;
 	case(op)
 		
-		4'h0 : c <= {8'h00 , a + b};
-		4'h1 : c <= {8'h00 , a - b};
+		4'h0 : begin 
+		      c <=  a + b;
+		end
+		4'h1 : c <=  a - b;
 		4'h2 : c <= a*b;
 		4'h3 : begin
 		      if ( b == 0) begin

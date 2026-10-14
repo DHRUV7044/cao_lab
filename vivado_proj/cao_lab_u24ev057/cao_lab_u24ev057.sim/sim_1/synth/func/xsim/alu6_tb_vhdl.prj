@@ -1,7 +1,6 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../rtl/alu/alu_8bit_vhdl.vhd" \
-"../../../../tb/alu/alu8_vhdl_tb.vhd" \
+"alu6_tb_func_synth.vhd" \
 
 # Do not sort compile order
 nosort

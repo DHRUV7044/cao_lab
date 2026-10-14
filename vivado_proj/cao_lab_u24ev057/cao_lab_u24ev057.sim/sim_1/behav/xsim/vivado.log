@@ -799,3 +799,5 @@ close_sim
 INFO: [Simtcl 6-16] Simulation closed
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  1 13:41:44 2026...

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.sim/sim_1/synth/func/xsim/alu6_tb_func_synth.vhd,1791447658,vhdl,,,,rca4_verilog,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.sim/sim_1/synth/func/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/rtl/alu_board/alu6_verilog.v,1791446246,verilog,,/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v,,alu6_verilog,,,,,,,,
+/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/alu_board/alu6_tb.v,1790855715,verilog,,,,alu6_tb,,,,,,,,
