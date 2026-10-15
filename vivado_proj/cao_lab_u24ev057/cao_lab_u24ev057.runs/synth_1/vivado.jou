@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Oct  8 17:29:13 2026
-# Process ID: 99123
+# Start of session at: Thu Oct 15 12:43:54 2026
+# Process ID: 105052
 # Current directory: /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.runs/synth_1
-# Command line: vivado -log rca4_verilog.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rca4_verilog.tcl
-# Log file: /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.runs/synth_1/rca4_verilog.vds
+# Command line: vivado -log alu_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_display.tcl
+# Log file: /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.runs/synth_1/alu_display.vds
 # Journal file: /home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/cao_lab_u24ev057.runs/synth_1/vivado.jou
-# Running On: vlsilab-client59.eced.svnit.ac.in, OS: Linux, CPU Frequency: 3193.000 MHz, CPU Physical cores: 2, Host memory: 7928 MB
+# Running On: vlsilab-client44.eced.svnit.ac.in, OS: Linux, CPU Frequency: 3200.000 MHz, CPU Physical cores: 6, Host memory: 7953 MB
 #-----------------------------------------------------------
-source rca4_verilog.tcl -notrace
+source alu_display.tcl -notrace

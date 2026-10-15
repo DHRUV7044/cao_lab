@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1791460173" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/rca4_verilog.dcp">
-  <File Type="RDS-DCP" Name="rca4_verilog.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="rca4_verilog_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="rca4_verilog.tcl"/>
-  <File Type="RDS-UTIL" Name="rca4_verilog_utilization_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="rca4_verilog_reports.tcl"/>
-  <File Type="RDS-RDS" Name="rca4_verilog.vds"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1792048431" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/rca4_verilog.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="alu_display_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="alu_display.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="alu_display_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="alu_display_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="alu_display_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="alu_display.vds"/>
+  <File Type="REPORTS-TCL" Name="alu_display_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="alu_display_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="alu_display.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/rtl/alu_board/alu6_verilog.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/rtl/alu_board/alu_display.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/rtl/rca_board/fa_verilog.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/rtl/rca_board/rca4_verilog.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/rtl/alu_board/alu6_verilog.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -89,11 +100,11 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="rca4_verilog"/>
+      <Option Name="TopModule" Val="alu_display"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/rca" RelGenDir="$PGENDIR/rca">
-    <File Path="$PPRDIR/constraints/rca/rca4.xdc">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/alu6" RelGenDir="$PGENDIR/alu6">
+    <File Path="$PPRDIR/constraints/alu/alu6.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

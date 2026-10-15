@@ -1,92 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1791460173">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1792048431">
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="rca4_verilog_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS" Name="rca4_verilog_routed.rqs"/>
-  <File Type="RBD_FILE" Name="rca4_verilog.rbd"/>
-  <File Type="NPI_FILE" Name="rca4_verilog.npi"/>
-  <File Type="RNPI_FILE" Name="rca4_verilog.rnpi"/>
-  <File Type="CFI_FILE" Name="rca4_verilog.cfi"/>
-  <File Type="RCFI_FILE" Name="rca4_verilog.rcfi"/>
-  <File Type="PL-PDI-FILE" Name="rca4_verilog_pld.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="rca4_verilog_boot.pdi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="rca4_verilog_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-RPX" Name="rca4_verilog_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="rca4_verilog_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="rca4_verilog_methodology_drc_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="rca4_verilog_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="rca4_verilog_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="rca4_verilog_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="rca4_verilog_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="rca4_verilog_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="rca4_verilog_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="rca4_verilog_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="rca4_verilog_postroute_physopt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="rca4_verilog_physopt.dcp"/>
-  <File Type="PLACE-IO" Name="rca4_verilog_io_placed.rpt"/>
-  <File Type="OPT-DRC" Name="rca4_verilog_drc_opted.rpt"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="rca4_verilog.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="rca4_verilog.sysdef"/>
-  <File Type="BITSTR-MMI" Name="rca4_verilog.mmi"/>
-  <File Type="BITSTR-BMM" Name="rca4_verilog_bd.bmm"/>
-  <File Type="PLACE-UTIL-PB" Name="rca4_verilog_utilization_placed.pb"/>
-  <File Type="BG-BGN" Name="rca4_verilog.bgn"/>
-  <File Type="OPT-DCP" Name="rca4_verilog_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="rca4_verilog.hwdef"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
-  <File Type="BG-BIT" Name="rca4_verilog.bit"/>
-  <File Type="ROUTE-BUS-SKEW" Name="rca4_verilog_bus_skew_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="alu_display_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="alu_display_routed.rqs"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="PA-TCL" Name="rca4_verilog.tcl"/>
-  <File Type="REPORTS-TCL" Name="rca4_verilog_reports.tcl"/>
-  <File Type="PLACE-UTIL" Name="rca4_verilog_utilization_placed.rpt"/>
-  <File Type="BG-DRC" Name="rca4_verilog.drc"/>
-  <File Type="PLACE-CTRL" Name="rca4_verilog_control_sets_placed.rpt"/>
-  <File Type="PDI-FILE" Name="rca4_verilog.pdi"/>
-  <File Type="RDI-RDI" Name="rca4_verilog.vdi"/>
-  <File Type="BG-BIN" Name="rca4_verilog.bin"/>
-  <File Type="PLACE-DCP" Name="rca4_verilog_placed.dcp"/>
-  <File Type="BITSTR-MSK" Name="rca4_verilog.msk"/>
-  <File Type="PWROPT-DCP" Name="rca4_verilog_pwropt.dcp"/>
-  <File Type="BITSTR-RBT" Name="rca4_verilog.rbt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="rca4_verilog_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-NKY" Name="rca4_verilog.nky"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="rca4_verilog_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DRC" Name="rca4_verilog_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="rca4_verilog_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="rca4_verilog_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="rca4_verilog_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="rca4_verilog_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="rca4_verilog_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="rca4_verilog_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="rca4_verilog_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="rca4_verilog_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="rca4_verilog_routed_bb.dcp"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="rca4_verilog_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="rca4_verilog_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="rca4_verilog_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="rca4_verilog_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="rca4_verilog_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="rca4_verilog_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="rca4_verilog_bus_skew_routed.rpx"/>
+  <File Type="BG-BGN" Name="alu_display.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="alu_display.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="alu_display.ltx"/>
+  <File Type="RBD_FILE" Name="alu_display.rbd"/>
+  <File Type="NPI_FILE" Name="alu_display.npi"/>
+  <File Type="RNPI_FILE" Name="alu_display.rnpi"/>
+  <File Type="CFI_FILE" Name="alu_display.cfi"/>
+  <File Type="RCFI_FILE" Name="alu_display.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="alu_display_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="alu_display_boot.pdi"/>
+  <File Type="RDI-RDI" Name="alu_display.vdi"/>
+  <File Type="PDI-FILE" Name="alu_display.pdi"/>
+  <File Type="BITSTR-MMI" Name="alu_display.mmi"/>
+  <File Type="BITSTR-BMM" Name="alu_display_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="alu_display.nky"/>
+  <File Type="BITSTR-RBT" Name="alu_display.rbt"/>
+  <File Type="BITSTR-MSK" Name="alu_display.msk"/>
+  <File Type="BG-BIN" Name="alu_display.bin"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="alu_display.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="alu_display_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="alu_display_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="alu_display_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="alu_display_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="alu_display_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="alu_display_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="alu_display_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="alu_display_postroute_physopt.dcp"/>
+  <File Type="BG-DRC" Name="alu_display.drc"/>
+  <File Type="ROUTE-RQS-PB" Name="alu_display_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="alu_display_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="alu_display_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="alu_display_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="alu_display_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="alu_display_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="alu_display_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="alu_display_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="alu_display_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="alu_display_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="alu_display_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="alu_display_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="alu_display_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="alu_display_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="alu_display_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="alu_display_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="alu_display_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="alu_display_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="alu_display_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="alu_display_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="alu_display_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="alu_display_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="alu_display_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="alu_display_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="alu_display_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="alu_display_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="alu_display_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="alu_display_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="alu_display_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="alu_display_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="alu_display_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="alu_display_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="alu_display_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="alu_display_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="alu_display_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="alu_display_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="alu_display_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="alu_display_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="alu_display_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="alu_display_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="alu_display_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="alu_display_rqa_opted.pb"/>
+  <File Type="OPT-HWDEF" Name="alu_display.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="alu_display_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="alu_display_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="alu_display_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="alu_display_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="alu_display_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="alu_display_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="alu_display.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/rtl/alu_board/alu6_verilog.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/rtl/alu_board/alu_display.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/rtl/rca_board/fa_verilog.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/rtl/rca_board/rca4_verilog.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/rtl/alu_board/alu6_verilog.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -153,11 +175,11 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="rca4_verilog"/>
+      <Option Name="TopModule" Val="alu_display"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/rca" RelGenDir="$PGENDIR/rca">
-    <File Path="$PPRDIR/constraints/rca/rca4.xdc">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/alu6" RelGenDir="$PGENDIR/alu6">
+    <File Path="$PPRDIR/constraints/alu/alu6.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -192,6 +214,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
