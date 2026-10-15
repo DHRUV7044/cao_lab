@@ -1,0 +1,78 @@
+{
+    "template": "cao",
+    "document": {
+        "title": "COMPUTER ARCHITECTURE & ORGANIZATION LAB RECORD"
+    },
+    "images": [
+        {
+            "id": "design",
+            "path": "images/design.png",
+            "title": "Booth Multiplier VHDL Design Code",
+            "rotation": 0
+        },
+        {
+            "id": "tb",
+            "path": "images/tb.png",
+            "title": "Booth Multiplier VHDL Testbench Code",
+            "rotation": 0
+        },
+        {
+            "id": "waveform",
+            "path": "images/waveform.png",
+            "title": "Booth Multiplier Simulation Waveform",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "title": "Lab 4: Booth Multiplier",
+            "sections": [
+                {
+                    "type": "code",
+                    "title": "Design code of Booth Multiplier (VHDL)",
+                    "language": "VHDL",
+                    "file": "src/booth_mul.vhd"
+                },
+                {
+                    "type": "code",
+                    "title": "Testbench code of Booth Multiplier (VHDL)",
+                    "language": "VHDL",
+                    "file": "src/booth_mul_tb.vhd"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of Code and Testbench",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Design and Testbench Code",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "design",
+                                    "tb"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Simulation Waveform",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Simulation Waveform",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "waveform"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

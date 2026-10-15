@@ -1,0 +1,112 @@
+{
+    "template": "cao",
+    "document": {
+        "title": "COMPUTER ARCHITECTURE & ORGANIZATION LAB RECORD"
+    },
+    "images": [
+        {
+            "id": "rca4_verilog_code",
+            "path": "images/rca4_verilog_code.png",
+            "title": "4-bit RCA Verilog Design Code",
+            "rotation": 0
+        },
+        {
+            "id": "rca4_tb",
+            "path": "images/rca4_tb.png",
+            "title": "4-bit RCA Testbench Code",
+            "rotation": 0
+        },
+        {
+            "id": "rca4_constraint",
+            "path": "images/rca4_constraint.png",
+            "title": "Basys 3 Constraints File",
+            "rotation": 0
+        },
+        {
+            "id": "rca4_waveform",
+            "path": "images/rca4_waveform.png",
+            "title": "4-bit RCA Simulation Waveform",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "title": "Lab 6: 4-bit Ripple Carry Adder FPGA Implementation",
+            "sections": [
+                {
+                    "type": "code",
+                    "title": "Design code of Full Adder (Verilog)",
+                    "language": "Verilog",
+                    "file": "src/fa_verilog.v"
+                },
+                {
+                    "type": "code",
+                    "title": "Design code of 4-bit Ripple Carry Adder (Verilog)",
+                    "language": "Verilog",
+                    "file": "src/rca4_verilog.v"
+                },
+                {
+                    "type": "code",
+                    "title": "Testbench code of 4-bit Ripple Carry Adder (Verilog)",
+                    "language": "Verilog",
+                    "file": "src/rca4_tb.v"
+                },
+                {
+                    "type": "code",
+                    "title": "Constraint file for Basys 3 Board (XDC)",
+                    "language": "XDC",
+                    "file": "src/rca4.xdc"
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of Code and Testbench",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Design and Testbench Code",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "rca4_verilog_code",
+                                    "rca4_tb"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Screenshot of Constraints File",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Basys 3 XDC Constraints",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "rca4_constraint"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "title": "Simulation Waveform",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "Simulation Waveform",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    "rca4_waveform"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
