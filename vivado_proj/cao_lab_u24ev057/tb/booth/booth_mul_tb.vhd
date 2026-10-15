@@ -17,104 +17,91 @@
 -- Additional Comments:
 -- 
 ----------------------------------------------------------------------------------
-
-
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
-use IEEE.NUMERIC_STD.ALL;
+USE IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity booth_mul_tb is
---  Port ( );
-end booth_mul_tb;
+ENTITY booth_mul_tb IS
+    --  Port ( );
+END booth_mul_tb;
 
-architecture testing of booth_mul_tb is
+ARCHITECTURE testing OF booth_mul_tb IS
+    COMPONENT booth_mul IS
+        PORT (
+            a : IN signed (3 DOWNTO 0);
+            b : IN signed (3 DOWNTO 0);
+            p : OUT signed (7 DOWNTO 0));
+    END COMPONENT;
+    SIGNAL a : signed(3 DOWNTO 0);
+    SIGNAL b : signed(3 DOWNTO 0);
+    SIGNAL p : signed(7 DOWNTO 0);
 
-
-    component booth_mul is
-        Port ( a : in signed (3 downto 0);
-            b : in signed (3 downto 0);
-            p : out signed (7 downto 0));
-    end component;
-    
-
-    signal a : signed(3 downto 0);
-    signal b : signed(3 downto 0);
-    signal p : signed(7 downto 0);
-     
-begin
-
-
-    booth_multiplier_test : booth_mul port map(
+BEGIN
+    booth_multiplier_test : booth_mul PORT MAP(
         a => a,
         b => b,
-        p =>p
+        p => p
     );
-    
-    
-    process
-    
-    begin
+    PROCESS
+
+    BEGIN
         a <= "0101";
         b <= "1010";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "0011";
         b <= "1100";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "1010";
         b <= "1100";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "0001";
         b <= "1000";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "1110";
         b <= "1011";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "1111";
         b <= "1111";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "0000";
         b <= "0000";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "1010";
         b <= "1111";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "0001";
         b <= "1111";
-        
-        wait for 10ns;
-        
+
+        WAIT FOR 10ns;
+
         a <= "1010";
         b <= "1111";
-        
-        
-        wait;
-    
-    end process;
-    
+        WAIT;
 
+    END PROCESS;
 
-end testing;
+END testing;
