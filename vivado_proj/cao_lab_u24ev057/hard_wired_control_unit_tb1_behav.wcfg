@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="hard_wired_control_unit_tb1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="hard_wired_control_unit_tb1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="164.830 ns"></ZoomEndTime>
+      <Cursor1Time time="28.394 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="92"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/hard_wired_control_unit_tb1/cu_dut/T">
+      <obj_property name="ElementShortName">T[1:0]</obj_property>
+      <obj_property name="ObjectShortName">T[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/MFC">
+      <obj_property name="ElementShortName">MFC</obj_property>
+      <obj_property name="ObjectShortName">MFC</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/hard_wired_control_unit_tb1/ir">
+      <obj_property name="ElementShortName">ir[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/IRin">
+      <obj_property name="ElementShortName">IRin</obj_property>
+      <obj_property name="ObjectShortName">IRin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/PCout">
+      <obj_property name="ElementShortName">PCout</obj_property>
+      <obj_property name="ObjectShortName">PCout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/PCinc">
+      <obj_property name="ElementShortName">PCinc</obj_property>
+      <obj_property name="ObjectShortName">PCinc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/MARin">
+      <obj_property name="ElementShortName">MARin</obj_property>
+      <obj_property name="ObjectShortName">MARin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/MDRine">
+      <obj_property name="ElementShortName">MDRine</obj_property>
+      <obj_property name="ObjectShortName">MDRine</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/MDRout">
+      <obj_property name="ElementShortName">MDRout</obj_property>
+      <obj_property name="ObjectShortName">MDRout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/Aout">
+      <obj_property name="ElementShortName">Aout</obj_property>
+      <obj_property name="ObjectShortName">Aout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/Bout">
+      <obj_property name="ElementShortName">Bout</obj_property>
+      <obj_property name="ObjectShortName">Bout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/Yin">
+      <obj_property name="ElementShortName">Yin</obj_property>
+      <obj_property name="ObjectShortName">Yin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/TEMPin">
+      <obj_property name="ElementShortName">TEMPin</obj_property>
+      <obj_property name="ObjectShortName">TEMPin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/TEMPout">
+      <obj_property name="ElementShortName">TEMPout</obj_property>
+      <obj_property name="ObjectShortName">TEMPout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/hard_wired_control_unit_tb1/END">
+      <obj_property name="ElementShortName">END</obj_property>
+      <obj_property name="ObjectShortName">END</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/hard_wired_control_unit_tb1/ALUop">
+      <obj_property name="ElementShortName">ALUop[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/hard_wired_control_unit_tb1/p">
+      <obj_property name="ElementShortName">p[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p[31:0]</obj_property>
+   </wvobject>
+</wave_config>

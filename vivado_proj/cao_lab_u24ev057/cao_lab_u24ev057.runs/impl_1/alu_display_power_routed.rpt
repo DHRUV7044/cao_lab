@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-| Date             : Thu Oct 15 12:46:01 2026
-| Host             : vlsilab-client44.eced.svnit.ac.in running 64-bit Red Hat Enterprise Linux release 8.7 (Ootpa)
+| Date             : Thu Oct 15 17:29:07 2026
+| Host             : vlsilab-client43.eced.svnit.ac.in running 64-bit Red Hat Enterprise Linux release 8.10 (Ootpa)
 | Command          : report_power -file alu_display_power_routed.rpt -pb alu_display_power_summary_routed.pb -rpx alu_display_power_routed.rpx
 | Design           : alu_display
 | Device           : xc7a35tcpg236-1
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.103        |
+| Total On-Chip Power (W)  | 0.078        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.031        |
+| Dynamic (W)              | 0.006        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 84.5         |
-| Junction Temperature (C) | 25.5         |
+| Max Ambient (C)          | 84.6         |
+| Junction Temperature (C) | 25.4         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -53,17 +53,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |     0.004 |      550 |       --- |             --- |
-|   LUT as Logic |     0.004 |      392 |     20800 |            1.88 |
-|   CARRY4       |    <0.001 |       60 |      8150 |            0.74 |
+| Slice Logic    |    <0.001 |      555 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      394 |     20800 |            1.89 |
+|   CARRY4       |    <0.001 |       63 |      8150 |            0.77 |
 |   F7/F8 Muxes  |    <0.001 |       12 |     32600 |            0.04 |
 |   Register     |    <0.001 |       18 |     41600 |            0.04 |
 |   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |     0.004 |      508 |       --- |             --- |
+| Signals        |    <0.001 |      512 |       --- |             --- |
 | DSPs           |    <0.001 |        1 |        90 |            1.11 |
-| I/O            |     0.022 |       31 |       106 |           29.25 |
+| I/O            |     0.004 |       31 |       106 |           29.25 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.103 |          |           |                 |
+| Total          |     0.078 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,9 +73,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.019 |       0.009 |      0.010 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.013 |       0.001 |      0.013 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.007 |       0.006 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.011 |       0.002 |      0.010 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -129,7 +129,7 @@ Table of Contents
 +-------------+--------+-----------------+
 | Clock       | Domain | Constraint (ns) |
 +-------------+--------+-----------------+
-| sys_clk_pin | clk    |            10.0 |
+| sys_clk_pin | clk    |            50.0 |
 +-------------+--------+-----------------+
 
 
@@ -142,8 +142,8 @@ Table of Contents
 +-------------+-----------+
 | Name        | Power (W) |
 +-------------+-----------+
-| alu_display |     0.031 |
-|   alu6_inst |     0.008 |
+| alu_display |     0.006 |
+|   alu6_inst |     0.002 |
 +-------------+-----------+
 
 

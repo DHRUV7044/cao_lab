@@ -42,7 +42,7 @@ module alu6_verilog #( parameter w = 6)
 		
 		4'h0 : c <=  ae + be;
 		4'h1 : c <=  ae - be;
-		4'h2 : c <= a*b;
+		4'h2 : c <= ae*be;
 		4'h3 : begin
 		      if ( b == 0) begin
 		          c <= {{w{1'b1}} , {w{1'b1}}};

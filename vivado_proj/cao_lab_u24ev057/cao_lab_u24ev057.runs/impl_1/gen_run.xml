@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1792048431">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1792065382">
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="alu_display_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS" Name="alu_display_routed.rqs"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-BGN" Name="alu_display.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="alu_display.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="alu_display.ltx"/>
   <File Type="RBD_FILE" Name="alu_display.rbd"/>
   <File Type="NPI_FILE" Name="alu_display.npi"/>
   <File Type="RNPI_FILE" Name="alu_display.rnpi"/>
@@ -15,16 +10,10 @@
   <File Type="RCFI_FILE" Name="alu_display.rcfi"/>
   <File Type="PL-PDI-FILE" Name="alu_display_pld.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="alu_display_boot.pdi"/>
-  <File Type="RDI-RDI" Name="alu_display.vdi"/>
-  <File Type="PDI-FILE" Name="alu_display.pdi"/>
-  <File Type="BITSTR-MMI" Name="alu_display.mmi"/>
-  <File Type="BITSTR-BMM" Name="alu_display_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="alu_display.nky"/>
-  <File Type="BITSTR-RBT" Name="alu_display.rbt"/>
-  <File Type="BITSTR-MSK" Name="alu_display.msk"/>
-  <File Type="BG-BIN" Name="alu_display.bin"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
-  <File Type="BG-BIT" Name="alu_display.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="alu_display_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="alu_display_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="alu_display_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="alu_display_methodology_drc_routed.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="alu_display_bus_skew_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="alu_display_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="alu_display_bus_skew_postroute_physopted.rpt"/>
@@ -32,58 +21,55 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="alu_display_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="alu_display_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="alu_display_postroute_physopt_bb.dcp"/>
+  <File Type="PLACE-IO" Name="alu_display_io_placed.rpt"/>
+  <File Type="OPT-DRC" Name="alu_display_drc_opted.rpt"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="alu_display.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="alu_display.sysdef"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="alu_display_postroute_physopt.dcp"/>
-  <File Type="BG-DRC" Name="alu_display.drc"/>
-  <File Type="ROUTE-RQS-PB" Name="alu_display_rqs_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="alu_display_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="alu_display_bus_skew_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="alu_display.mmi"/>
+  <File Type="BITSTR-BMM" Name="alu_display_bd.bmm"/>
+  <File Type="PHYSOPT-DCP" Name="alu_display_physopt.dcp"/>
+  <File Type="PLACE-UTIL-PB" Name="alu_display_utilization_placed.pb"/>
+  <File Type="BG-BGN" Name="alu_display.bgn"/>
+  <File Type="OPT-DCP" Name="alu_display_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="alu_display.hwdef"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="alu_display.bit"/>
   <File Type="ROUTE-BUS-SKEW" Name="alu_display_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="alu_display_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="alu_display_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="alu_display_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-TIMING-PB" Name="alu_display_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="alu_display_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="alu_display_route_status.pb"/>
-  <File Type="ROUTE-STATUS" Name="alu_display_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="alu_display_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="alu_display_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="alu_display_power_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="alu_display_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="alu_display_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="alu_display_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="alu_display_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="alu_display_drc_routed.pb"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="PA-TCL" Name="alu_display.tcl"/>
+  <File Type="REPORTS-TCL" Name="alu_display_reports.tcl"/>
+  <File Type="PLACE-UTIL" Name="alu_display_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="alu_display.drc"/>
+  <File Type="PLACE-CTRL" Name="alu_display_control_sets_placed.rpt"/>
+  <File Type="PDI-FILE" Name="alu_display.pdi"/>
+  <File Type="RDI-RDI" Name="alu_display.vdi"/>
+  <File Type="BG-BIN" Name="alu_display.bin"/>
+  <File Type="PLACE-DCP" Name="alu_display_placed.dcp"/>
+  <File Type="BITSTR-MSK" Name="alu_display.msk"/>
+  <File Type="PWROPT-DCP" Name="alu_display_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="alu_display_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BITSTR-RBT" Name="alu_display.rbt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="alu_display_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-NKY" Name="alu_display.nky"/>
   <File Type="ROUTE-DRC" Name="alu_display_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="alu_display_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC-PB" Name="alu_display_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="alu_display_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="alu_display_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="alu_display_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="alu_display_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="alu_display_route_status.pb"/>
   <File Type="ROUTE-DCP" Name="alu_display_routed.dcp"/>
   <File Type="ROUTE-ERROR-DCP" Name="alu_display_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="alu_display_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="alu_display_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="alu_display_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="alu_display_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="alu_display_postplace_pwropt.dcp"/>
-  <File Type="PLACE-RQA-PB" Name="alu_display_rqa_placed.pb"/>
-  <File Type="PLACE-TIMING" Name="alu_display_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="alu_display_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="alu_display_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="alu_display_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="alu_display_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="alu_display_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="alu_display_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="alu_display_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="alu_display_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="alu_display_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="alu_display_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="alu_display_pwropt.dcp"/>
-  <File Type="OPT-RQA-PB" Name="alu_display_rqa_opted.pb"/>
-  <File Type="OPT-HWDEF" Name="alu_display.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="alu_display_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="alu_display_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="alu_display_opt.dcp"/>
-  <File Type="OPT-TIMING" Name="alu_display_timing_summary_opted.rpt"/>
-  <File Type="REPORTS-TCL" Name="alu_display_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="alu_display_timing_summary_init.rpt"/>
-  <File Type="PA-TCL" Name="alu_display.tcl"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="alu_display_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="alu_display_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="alu_display_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="alu_display_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="alu_display_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="alu_display_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="alu_display_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="alu_display_bus_skew_routed.rpx"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/rtl/alu_board/alu6_verilog.v">
@@ -214,5 +200,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
