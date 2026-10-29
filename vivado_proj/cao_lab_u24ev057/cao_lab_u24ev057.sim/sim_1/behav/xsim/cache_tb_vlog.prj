@@ -1,7 +1,8 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../rtl/hard_wired_control_unit_1/hard_wired_control_unit_1.v" \
-"../../../../tb/hard_wired_control_unit_1/hard_wired_control_unit_tb1.v" \
+"../../../../rtl/cache/cache.v" \
+"../../../../rtl/cache/ram.v" \
+"../../../../tb/cache/cache_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

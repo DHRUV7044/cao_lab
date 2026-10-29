@@ -1,2 +1,2 @@
 Time resolution is 1 ps
-$finish called at time : 201 ns : File "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/hard_wired_control_unit_1/hard_wired_control_unit_tb1.v" Line 91
+$finish called at time : 229 ns : File "/home/u24ev057/hdl_cao/CAO_lab/vivado_proj/cao_lab_u24ev057/tb/cache/cache_tb.v" Line 62
